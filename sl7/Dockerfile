@@ -2,7 +2,7 @@
 FROM scratch
 ADD sl-7-docker.tar.xz /
 
-LABEL name="SL7 Base Image" vendor="Scientific Linux" build-date="20190304"
+LABEL name="SL7 Base Image" vendor="Scientific Linux" build-date="20190501"
 
 CMD ["/bin/bash"]
 
